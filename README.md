@@ -1,0 +1,2 @@
+- Created an open-source music generation model, utilizing Facebook’s EnCodec Transformer model to compress audio wave files to an embedding that the model can understand.
+- Training a conditioned GAN neural network that generates music based on user-provided genre inputs embedded using the BERT model, with a goal of creating copyright and royalty-free music, being trained on the FMA dataset.
