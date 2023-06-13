@@ -1,0 +1,17 @@
+__pycache__/
+.idea/
+.ipynb_checkpoints/
+
+runs/
+wandb/
+
+# Ignore all video formats
+*.mp4
+*.avi
+*.wmv
+*.mov
+*.mkv
+*.flv
+*.mpeg
+*.mpg
+*.3gp
