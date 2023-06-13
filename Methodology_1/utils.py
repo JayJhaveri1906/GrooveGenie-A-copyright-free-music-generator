@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import uuid
 import matplotlib.pyplot as plt
-from GAN import *
+from lstmGan import *
 import pandas as pd
 from transformers import BertTokenizer, BertModel
 from DLG import DLG
@@ -119,11 +119,12 @@ def generate_music(generator, enCodecModel, testloader, epoch = 0, batch = 0, de
 
     if not os.path.exists(f'./runs/{UNIQUE_RUN_ID}/music/ep{epoch}/b{batch}'):
       os.mkdir(f'./runs/{UNIQUE_RUN_ID}/music/ep{epoch}/b{batch}')
-    fname = f'./runs/{UNIQUE_RUN_ID}/music/ep{epoch}/b{batch}/epoch{epoch}_batch{batch}_sample{i}.wav'
+    fname = f'./runs/{UNIQUE_RUN_ID}/music/ep{epoch}/b{batch}/epoch{epoch}_batch{batch}_sample{i}.mp3'
 
     save_music(fname, wav)
 
   printf("Generating Done")
+  generator.train()
 
   
   

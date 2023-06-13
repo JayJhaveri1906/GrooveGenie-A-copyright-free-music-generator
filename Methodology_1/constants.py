@@ -18,8 +18,8 @@ DEBUG = True
 SAMPLE_RATE = 44100
 TEST_SET_SIZE = 8
 PRETRAINED = True
-GEN_PATH = "runs/5d784cd3-92df-4719-9954-692a743260ac/generator_1_0.pth"
-DIS_PATH = "runs/5d784cd3-92df-4719-9954-692a743260ac/discriminator_1_0.pth"
+GEN_PATH = "runs/9a18eeba-4187-4daf-8b5e-cc560a9a65ff/generator_82_0.pth"
+DIS_PATH = "runs/9a18eeba-4187-4daf-8b5e-cc560a9a65ff/discriminator_82_0.pth"
 
 
 # common functions
