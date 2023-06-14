@@ -5,9 +5,9 @@ Our project aims to address the challenge of using copyrighted music in social m
 
 
 ## More info
-Read our report that explains the motivation, the three process we used, and everything in detail [here](./Docs/CSE_291___MedLM.pdf)
+Read our report that explains the motivation, the three process we used, and everything in detail [here](./Docs/285_Project_GroovieGenie_Final_Report.pdf)
 
-For a brief overview, refer our ppt [here](./Docs/CSE_291_MedLM.pptx)
+For a brief overview, refer our ppt [here](./Docs/CSE_285_Groovie_Genie_ppt.pptx)
 
 
 ## Folder Structure and How to run
@@ -15,6 +15,11 @@ The folder names are pretty explanatory.
 
 There exists readme inside each folder explaining how to run.
 
+# Outputs
+
+You can listen to the generated music [here](https://drive.google.com/drive/folders/10CUluH9OP9jbVhLTVSuWvnCOsqMnsXLc?usp=sharing). These are mp3 files converted from the generated midi files.
+
+If you prefer to see the actual generated midi files, it's inside the music_metrics and the respective folders. You can use the sound font file (available inside Music_Metrics folder) to listen to it if your OS doesn't play mid files by default. Just google play mid files using custom Sound font.
 
 
 #### Requirements.txt
